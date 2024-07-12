@@ -16,9 +16,6 @@ public class Result {
         this.code = code;
         this.msg = msg;
     }
-
-
-
     public Object getData() {
         return data;
     }
