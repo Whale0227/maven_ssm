@@ -34,7 +34,6 @@ public interface BookService {
      * @return
      */
     public Book getById(Integer id);
-
     /**
      * 查询全部
      * @return

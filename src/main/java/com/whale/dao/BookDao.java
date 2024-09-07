@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 @Component
 public interface BookDao {
-
     @Insert("insert into tbl_book (type,name,description) values(#{type},#{name},#{description})")
     public int save(Book book);
     @Update("update tbl_book set type = #{type},name = #{name},description = #{description} where id = #{id}")
