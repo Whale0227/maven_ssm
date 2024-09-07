@@ -19,7 +19,6 @@ public class BookServiceTest {
     public void testGetById(){
         Book book = bookService.getById(1);
         System.out.println(book);
-
     }
     @Test
     public void testGetAll(){

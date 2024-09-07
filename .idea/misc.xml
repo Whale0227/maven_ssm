@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../maven_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/../maven_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../maven_parent/pom.xml" />
       </list>
     </option>
   </component>
